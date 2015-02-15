@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D49DFCF173FCFDF00004B79 /* SpeexEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D49DFCE173FCFDF00004B79 /* SpeexEncoder.m */; };
+		4D49DFD4173FD01500004B79 /* WaveInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D49DFD1173FD01500004B79 /* WaveInfo.m */; };
+		4D49DFD5173FD01500004B79 /* WaveParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D49DFD3173FD01500004B79 /* WaveParser.m */; };
+		4D49DFD8173FD03E00004B79 /* test_8000Hz_16bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D49DFD6173FD03E00004B79 /* test_8000Hz_16bit.wav */; };
+		4D49DFD9173FD03E00004B79 /* test_44100Hz_16bit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D49DFD7173FD03E00004B79 /* test_44100Hz_16bit.wav */; };
+		4D49DFDC173FD07B00004B79 /* NSError+CustomError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D49DFDB173FD07B00004B79 /* NSError+CustomError.m */; };
+		4D49DFE0173FD0CA00004B79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D49DFDD173FD0CA00004B79 /* Default-568h@2x.png */; };
+		4D49DFE1173FD0CA00004B79 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D49DFDE173FD0CA00004B79 /* Default.png */; };
+		4D49DFE2173FD0CA00004B79 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D49DFDF173FD0CA00004B79 /* Default@2x.png */; };
+		4D49DFE6173FD0E900004B79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D49DFE3173FD0E900004B79 /* main.m */; };
+		4D49DFE7173FD0E900004B79 /* SpeexEncodingDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D49DFE4173FD0E900004B79 /* SpeexEncodingDemo-Info.plist */; };
+		4D49DFEA173FD14300004B79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D49DFE8173FD14300004B79 /* InfoPlist.strings */; };
+		4D49DFEE173FD15C00004B79 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D49DFEB173FD15C00004B79 /* Ogg.framework */; };
+		4D49DFEF173FD15C00004B79 /* Speex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D49DFEC173FD15C00004B79 /* Speex.framework */; };
+		4D49DFF0173FD15C00004B79 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D49DFED173FD15C00004B79 /* Vorbis.framework */; };
+		4DCDF4FB173FBDB4003C25BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDF4FA173FBDB4003C25BF /* AppDelegate.m */; };
+		CE09C4C1172C16BE0087100A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE09C4C0172C16BE0087100A /* UIKit.framework */; };
+		CE09C4C3172C16BE0087100A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE09C4C2172C16BE0087100A /* Foundation.framework */; };
+		CE09C4C5172C16BE0087100A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE09C4C4172C16BE0087100A /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D49DFCD173FCFDF00004B79 /* SpeexEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeexEncoder.h; path = SpeexEncodingDemo/SpeexUtilities/SpeexEncoder.h; sourceTree = SOURCE_ROOT; };
+		4D49DFCE173FCFDF00004B79 /* SpeexEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeexEncoder.m; path = SpeexEncodingDemo/SpeexUtilities/SpeexEncoder.m; sourceTree = SOURCE_ROOT; };
+		4D49DFD0173FD01500004B79 /* WaveInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaveInfo.h; path = SpeexEncodingDemo/WaveUtilities/WaveInfo.h; sourceTree = SOURCE_ROOT; };
+		4D49DFD1173FD01500004B79 /* WaveInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaveInfo.m; path = SpeexEncodingDemo/WaveUtilities/WaveInfo.m; sourceTree = SOURCE_ROOT; };
+		4D49DFD2173FD01500004B79 /* WaveParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaveParser.h; path = SpeexEncodingDemo/WaveUtilities/WaveParser.h; sourceTree = SOURCE_ROOT; };
+		4D49DFD3173FD01500004B79 /* WaveParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaveParser.m; path = SpeexEncodingDemo/WaveUtilities/WaveParser.m; sourceTree = SOURCE_ROOT; };
+		4D49DFD6173FD03E00004B79 /* test_8000Hz_16bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = test_8000Hz_16bit.wav; path = SpeexEncodingDemo/TestFiles/test_8000Hz_16bit.wav; sourceTree = SOURCE_ROOT; };
+		4D49DFD7173FD03E00004B79 /* test_44100Hz_16bit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = test_44100Hz_16bit.wav; path = SpeexEncodingDemo/TestFiles/test_44100Hz_16bit.wav; sourceTree = SOURCE_ROOT; };
+		4D49DFDA173FD07B00004B79 /* NSError+CustomError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+CustomError.h"; path = "SpeexEncodingDemo/HelperCategories/NSError+CustomError.h"; sourceTree = SOURCE_ROOT; };
+		4D49DFDB173FD07B00004B79 /* NSError+CustomError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+CustomError.m"; path = "SpeexEncodingDemo/HelperCategories/NSError+CustomError.m"; sourceTree = SOURCE_ROOT; };
+		4D49DFDD173FD0CA00004B79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "SpeexEncodingDemo/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		4D49DFDE173FD0CA00004B79 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = SpeexEncodingDemo/Default.png; sourceTree = SOURCE_ROOT; };
+		4D49DFDF173FD0CA00004B79 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "SpeexEncodingDemo/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		4D49DFE3173FD0E900004B79 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SpeexEncodingDemo/main.m; sourceTree = SOURCE_ROOT; };
+		4D49DFE4173FD0E900004B79 /* SpeexEncodingDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SpeexEncodingDemo-Info.plist"; path = "SpeexEncodingDemo/SpeexEncodingDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4D49DFE5173FD0E900004B79 /* SpeexEncodingDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SpeexEncodingDemo-Prefix.pch"; path = "SpeexEncodingDemo/SpeexEncodingDemo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		4D49DFE9173FD14300004B79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = SpeexEncodingDemo/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		4D49DFEB173FD15C00004B79 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = SpeexEncodingDemo/Frameworks/Ogg.framework; sourceTree = "<group>"; };
+		4D49DFEC173FD15C00004B79 /* Speex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speex.framework; path = SpeexEncodingDemo/Frameworks/Speex.framework; sourceTree = "<group>"; };
+		4D49DFED173FD15C00004B79 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = SpeexEncodingDemo/Frameworks/Vorbis.framework; sourceTree = "<group>"; };
+		4DCDF4F9173FBDB4003C25BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SpeexEncodingDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		4DCDF4FA173FBDB4003C25BF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SpeexEncodingDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		CE09C4BD172C16BE0087100A /* SpeexEncodingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeexEncodingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE09C4C0172C16BE0087100A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE09C4C2172C16BE0087100A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE09C4C4172C16BE0087100A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE09C4BA172C16BE0087100A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE09C4C1172C16BE0087100A /* UIKit.framework in Frameworks */,
+				CE09C4C3172C16BE0087100A /* Foundation.framework in Frameworks */,
+				CE09C4C5172C16BE0087100A /* CoreGraphics.framework in Frameworks */,
+				4D49DFEE173FD15C00004B79 /* Ogg.framework in Frameworks */,
+				4D49DFEF173FD15C00004B79 /* Speex.framework in Frameworks */,
+				4D49DFF0173FD15C00004B79 /* Vorbis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE09C4B4172C16BE0087100A = {
+			isa = PBXGroup;
+			children = (
+				CE09C4C6172C16BE0087100A /* SpeexEncodingDemo */,
+				CE09C4BF172C16BE0087100A /* Frameworks */,
+				CE09C4BE172C16BE0087100A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE09C4BE172C16BE0087100A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE09C4BD172C16BE0087100A /* SpeexEncodingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE09C4BF172C16BE0087100A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D49DFEB173FD15C00004B79 /* Ogg.framework */,
+				4D49DFEC173FD15C00004B79 /* Speex.framework */,
+				4D49DFED173FD15C00004B79 /* Vorbis.framework */,
+				CE09C4C0172C16BE0087100A /* UIKit.framework */,
+				CE09C4C2172C16BE0087100A /* Foundation.framework */,
+				CE09C4C4172C16BE0087100A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE09C4C6172C16BE0087100A /* SpeexEncodingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4DCDF4F9173FBDB4003C25BF /* AppDelegate.h */,
+				4DCDF4FA173FBDB4003C25BF /* AppDelegate.m */,
+				CE0C611E173D35D0004B96B1 /* SpeexUtilities */,
+				CE0C611D173D35C4004B96B1 /* WaveUtilities */,
+				CE0C611F173D35E3004B96B1 /* TestFiles */,
+				CE0C611C173D35B9004B96B1 /* HelperCategories */,
+				CE09C4C7172C16BE0087100A /* Supporting Files */,
+			);
+			name = SpeexEncodingDemo;
+			path = TestApp;
+			sourceTree = "<group>";
+		};
+		CE09C4C7172C16BE0087100A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D49DFDD173FD0CA00004B79 /* Default-568h@2x.png */,
+				4D49DFDE173FD0CA00004B79 /* Default.png */,
+				4D49DFDF173FD0CA00004B79 /* Default@2x.png */,
+				4D49DFE3173FD0E900004B79 /* main.m */,
+				4D49DFE4173FD0E900004B79 /* SpeexEncodingDemo-Info.plist */,
+				4D49DFE5173FD0E900004B79 /* SpeexEncodingDemo-Prefix.pch */,
+				4D49DFE8173FD14300004B79 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE0C611C173D35B9004B96B1 /* HelperCategories */ = {
+			isa = PBXGroup;
+			children = (
+				4D49DFDA173FD07B00004B79 /* NSError+CustomError.h */,
+				4D49DFDB173FD07B00004B79 /* NSError+CustomError.m */,
+			);
+			name = HelperCategories;
+			sourceTree = "<group>";
+		};
+		CE0C611D173D35C4004B96B1 /* WaveUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				4D49DFD0173FD01500004B79 /* WaveInfo.h */,
+				4D49DFD1173FD01500004B79 /* WaveInfo.m */,
+				4D49DFD2173FD01500004B79 /* WaveParser.h */,
+				4D49DFD3173FD01500004B79 /* WaveParser.m */,
+			);
+			name = WaveUtilities;
+			sourceTree = "<group>";
+		};
+		CE0C611E173D35D0004B96B1 /* SpeexUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				4D49DFCD173FCFDF00004B79 /* SpeexEncoder.h */,
+				4D49DFCE173FCFDF00004B79 /* SpeexEncoder.m */,
+			);
+			name = SpeexUtilities;
+			sourceTree = "<group>";
+		};
+		CE0C611F173D35E3004B96B1 /* TestFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4D49DFD6173FD03E00004B79 /* test_8000Hz_16bit.wav */,
+				4D49DFD7173FD03E00004B79 /* test_44100Hz_16bit.wav */,
+			);
+			name = TestFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE09C4BC172C16BE0087100A /* SpeexEncodingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE09C4DA172C16BE0087100A /* Build configuration list for PBXNativeTarget "SpeexEncodingDemo" */;
+			buildPhases = (
+				CE09C4B9172C16BE0087100A /* Sources */,
+				CE09C4BA172C16BE0087100A /* Frameworks */,
+				CE09C4BB172C16BE0087100A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeexEncodingDemo;
+			productName = TestApp;
+			productReference = CE09C4BD172C16BE0087100A /* SpeexEncodingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE09C4B5172C16BE0087100A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mihteh Lab.";
+			};
+			buildConfigurationList = CE09C4B8172C16BE0087100A /* Build configuration list for PBXProject "SpeexEncodingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE09C4B4172C16BE0087100A;
+			productRefGroup = CE09C4BE172C16BE0087100A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE09C4BC172C16BE0087100A /* SpeexEncodingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE09C4BB172C16BE0087100A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D49DFD8173FD03E00004B79 /* test_8000Hz_16bit.wav in Resources */,
+				4D49DFD9173FD03E00004B79 /* test_44100Hz_16bit.wav in Resources */,
+				4D49DFE0173FD0CA00004B79 /* Default-568h@2x.png in Resources */,
+				4D49DFE1173FD0CA00004B79 /* Default.png in Resources */,
+				4D49DFE2173FD0CA00004B79 /* Default@2x.png in Resources */,
+				4D49DFE7173FD0E900004B79 /* SpeexEncodingDemo-Info.plist in Resources */,
+				4D49DFEA173FD14300004B79 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE09C4B9172C16BE0087100A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DCDF4FB173FBDB4003C25BF /* AppDelegate.m in Sources */,
+				4D49DFCF173FCFDF00004B79 /* SpeexEncoder.m in Sources */,
+				4D49DFD4173FD01500004B79 /* WaveInfo.m in Sources */,
+				4D49DFD5173FD01500004B79 /* WaveParser.m in Sources */,
+				4D49DFDC173FD07B00004B79 /* NSError+CustomError.m in Sources */,
+				4D49DFE6173FD0E900004B79 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D49DFE8173FD14300004B79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D49DFE9173FD14300004B79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE09C4D8172C16BE0087100A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE09C4D9172C16BE0087100A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE09C4DB172C16BE0087100A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ThirdParty/Frameworks\"",
+					"\"$(SRCROOT)/TestApp/Frameworks\"",
+					"\"$(SRCROOT)/SpeexEncodingDemo/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeexEncodingDemo/SpeexEncodingDemo-Prefix.pch";
+				INFOPLIST_FILE = "SpeexEncodingDemo/SpeexEncodingDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestApp\"",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/SpeexForIOS-hcmkrfusmknijtfgssipuckrfkao/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = SpeexEncodingDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE09C4DC172C16BE0087100A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ThirdParty/Frameworks\"",
+					"\"$(SRCROOT)/TestApp/Frameworks\"",
+					"\"$(SRCROOT)/SpeexEncodingDemo/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeexEncodingDemo/SpeexEncodingDemo-Prefix.pch";
+				INFOPLIST_FILE = "SpeexEncodingDemo/SpeexEncodingDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestApp\"",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/SpeexForIOS-hcmkrfusmknijtfgssipuckrfkao/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = SpeexEncodingDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE09C4B8172C16BE0087100A /* Build configuration list for PBXProject "SpeexEncodingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE09C4D8172C16BE0087100A /* Debug */,
+				CE09C4D9172C16BE0087100A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE09C4DA172C16BE0087100A /* Build configuration list for PBXNativeTarget "SpeexEncodingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE09C4DB172C16BE0087100A /* Debug */,
+				CE09C4DC172C16BE0087100A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE09C4B5172C16BE0087100A /* Project object */;
+}
